@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="J4b-gv-VzL">
+            <objects>
+                <viewController id="gsi-bf-Flk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m7Q-Ke-tcd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="lsh-df-IFT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Pc-ks-wMu"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lsh-df-IFT" firstAttribute="leading" secondItem="9Pc-ks-wMu" secondAttribute="leading" id="Jbf-iL-ycV"/>
+                            <constraint firstItem="lsh-df-IFT" firstAttribute="trailing" secondItem="9Pc-ks-wMu" secondAttribute="trailing" id="LB7-xd-7E6"/>
+                            <constraint firstItem="lsh-df-IFT" firstAttribute="top" secondItem="m7Q-Ke-tcd" secondAttribute="top" id="dhB-K3-5PG"/>
+                            <constraint firstItem="lsh-df-IFT" firstAttribute="bottom" secondItem="m7Q-Ke-tcd" secondAttribute="bottom" id="mUJ-FO-4S4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHN-Zz-v6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.275362318840585" y="373.66071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_screen" width="360" height="640"/>
+    </resources>
+</document>
